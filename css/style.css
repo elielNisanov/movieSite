@@ -21,12 +21,29 @@ body
 
 h1 
 {
-    color: #f5c518;
+    color: rgb(247, 101, 48);
     font-size: 36px;
 }
 
+nav a.active
+{
+    font-weight: bold;
+    color: rgb(247, 101, 48);
+}
 
-header                                                                      /* ===== כותרת עליונה ===== */
+nav a:hover
+{
+    color: navy;
+    text-decoration: underline;
+}
+
+h1, h2, h3
+{
+    font-family: "Secular", Arial, Helvetica, sans-serif;
+}
+
+
+header                                                                /* ===== כותרת עליונה ===== */
 {
     background-color: #000000;
 }
@@ -49,14 +66,14 @@ nav a
 }
 
 
-.movie img                                                                    /* ===== כרטיסי הסרטים ===== */
+.movie img                                                          /* ===== כרטיסי הסרטים ===== */
 {
     width: 200px;
 }
 
 .movie h2 
 {
-    color: #f5c518;
+    color: rgb(247, 101, 48);
     font-size: 24px;
 }
 
@@ -68,22 +85,22 @@ nav a
 
 .movie a 
 {
-    color: #f5c518;
+    color: rgb(247, 101, 48);
 }
 
                                                                        
-.about img                                                                                  /* ===== עמוד אודות ===== */                                                                                                         
+.about img                                                            /* ===== עמוד אודות ===== */                                                                                                         
 {
     width: 200px;
 }
 
 .about h2 span 
 {
-    color: #f5c518;
+    color: rgb(247, 101, 48);
 }
 
 
-footer                                                                                      /* ===== כותרת תחתונה ===== */
+footer                                                                  /* ===== כותרת תחתונה ===== */
 {
     background-color: #000000;
     color: #9a9a9a;
@@ -98,6 +115,23 @@ footer a
 
 footer span 
 {
-    color: #f5c518;
+    color: rgb(247, 101, 48);
     font-weight: bold;
 }
+
+
+.moviePage img                                                      /* ===== עמוד הסרט inception ===== */                                                                                                                                            
+{
+    width: 200px;
+}
+
+.moviePage h3                                                                                                                                                                                           
+{
+    color: rgb(247, 101, 48);
+}
+
+.moviePage h2                                                                                                                                                                                           
+{
+    color: rgb(247, 101, 48);
+}
+
