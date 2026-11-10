@@ -11,14 +11,6 @@ body
     line-height: 1.6;
 }
 
-body 
-{
-    font-family: "Rubik", Arial, sans-serif;
-    background-color: #141414;
-    color: #e5e5e5;
-    line-height: 1.6;
-}
-
 h1 
 {
     color: rgb(247, 101, 48);
@@ -39,13 +31,18 @@ nav a:hover
 
 h1, h2, h3
 {
-    font-family: "Secular", Arial, Helvetica, sans-serif;
+    font-family: "Secular One", sans-serif;
 }
 
 
 header                                                                /* ===== כותרת עליונה ===== */
 {
     background-color: #000000;
+    background-image: url("../images/cinema-banner.svg");
+    background-position: center;
+    background-size: cover;
+    padding: 12px;
+    border-bottom: 2px solid #f5c518;
 }
 
 header img 
@@ -66,9 +63,20 @@ nav a
 }
 
 
+.movie {
+    background-color: #202020;
+    border: 1px solid #3a3a3a;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
 .movie img                                                          /* ===== כרטיסי הסרטים ===== */
 {
     width: 200px;
+    border: 2px solid #f5c518;
+    border-radius: 8px;
 }
 
 .movie h2 
@@ -88,10 +96,20 @@ nav a
     color: rgb(247, 101, 48);
 }
 
+.movie:hover {
+    border-color: #f5c518;
+    background-color: #28251b;
+    border-color: #f5c518;
+    box-shadow: 0 8px 20px rgba(245, 197, 24, 0.22);
+}
+
                                                                        
 .about img                                                            /* ===== עמוד אודות ===== */                                                                                                         
 {
     width: 200px;
+    border: 3px solid #f5c518;
+    border-radius: 50%;
+    box-shadow: 0 4px 14px rgba(245, 197, 24, 0.25);
 }
 
 .about h2 span 
